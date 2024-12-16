@@ -6,6 +6,7 @@ import { NestExpressApplication } from '@nestjs/platform-express';
 // import { TaskHandlerRegistry } from '@shared/core/handlers/TaskHandlerRegistry';
 import helmet from 'helmet';
 import * as winston from 'winston';
+import { NestAppModule } from './nest-modules/nest-app.module';
 // import { WinstonLoggerAdapter } from '@shared/infrastructure/adapters/logger/WinstonLoggerAdapter';
 // import { LoggerPort } from '@shared/core/ports/LoggerPort';
 // import { LoggerConfig } from '@shared/infrastructure/config/LoggerConfig';
@@ -43,7 +44,7 @@ export class Application {
     // this.buildAPIDocumentation(app);
     // this.log();
 
-    await app.listen(this.port, this.host);
+    // await app.listen(this.port, this.host);
   }
 
   // private buildAPIDocumentation(app: NestExpressApplication): void {
