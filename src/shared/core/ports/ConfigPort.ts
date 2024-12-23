@@ -7,3 +7,4 @@ export interface ConfigPort {
     getFloat(key: ConfigKeys, required?: boolean): Nullable<number>;
     getBool(key: ConfigKeys, required?: boolean): Nullable<boolean>;
 }
+    

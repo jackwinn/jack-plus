@@ -38,6 +38,7 @@
     "dotenv": "^16.4.7",
     "env-var": "^7.5.0",
     "helmet": "^8.0.0",
+    "module-alias": "^2.2.3",
     "nest-app": "file:",
     "nodemailer": "^6.9.16",
     "passport": "^0.7.0",
